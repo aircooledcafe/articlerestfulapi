@@ -52,7 +52,7 @@ app.route("/articles")
     });
   });
 
-///////////////request targeting specific article//////////////////
+///////////////request targeting a specific article//////////////////
 
 app.route("/articles/:articleTitle")
   .get(function(req, res){
